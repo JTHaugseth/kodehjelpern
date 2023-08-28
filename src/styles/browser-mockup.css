@@ -1,0 +1,29 @@
+.browser-mockup {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: relative;
+    padding-top: 20px;  /* Space for the "browser buttons" */
+    /* Optional: Add max-width for large screens */
+    max-width: 100%;
+  }
+  
+  /* Optional: Add fake browser buttons */
+  .browser-mockup:before,
+  .browser-mockup:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .browser-mockup:before {
+    left: 5px;
+    background-color: red;
+  }
+  
+  .browser-mockup:after {
+    left: 25px;
+    background-color: green;
+  }
