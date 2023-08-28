@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Task5HTML() {
+function Task6HTML() {
   return (
     <div className="container-fluid">
       {/* Content for Intro to HTML will go here */}
-      <h1>containere-i-html</h1>
+      <h1>utforsk-flere-html-tags</h1>
     </div>
   );
 }
 
-export default Task5HTML;
+export default Task6HTML;

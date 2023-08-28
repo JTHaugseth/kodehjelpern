@@ -7,7 +7,8 @@ function Sidebar() {
     { id: 2, name: 'Tekst og Overskrifter' },
     { id: 3, name: 'Lister og Lenker' },
     { id: 4, name: 'Bilder og Attributter' },
-    { id: 5, name: 'Utforsk Flere HTML-Tags' }
+    { id: 5, name: 'Containere i HTML' },
+    { id: 6, name: 'Utforsk Flere HTML-Tags' }
     // You can add more HTML tasks here
   ];
 
