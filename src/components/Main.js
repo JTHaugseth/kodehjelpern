@@ -1,12 +1,46 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import LiveServer from '../images/LiveServer.JPG';
+import LiveShare from '../images/LiveShare.JPG';
 
-function Task1HTML() {
+function Main() {
   return (
-    <div className="container-fluid">
-      {/* Content for Intro to HTML will go here */}
-      <h1>Fremside</h1>
+    <div className="container-fluid d-flex flex-column align-items-center justify-content-center position-relative" style={{ minHeight: 'calc(100vh - 56px)' }}>
+      <div className="text-center">
+        <h1 className="mb-4">Velkommen til Kodehjelpern!</h1>
+        <p className="mb-5">
+          Hos kodehjelpern lærer du det grunnleggende i HTML og CSS. Trykk START nederst for å begynne!
+        </p>
+        <h2 className="mb-5">Anbefalninger</h2>
+        <h5 className="mb-2">File -{">"} Auto Save</h5>
+        <h6 className="mb-5">Dette vil automatisk lagre dokumentet ditt for hver endring</h6>
+        
+        <div className="row mb-3">
+          <div className="col">
+            Last ned Live Server for å se endringene dine i nettleseren i sanntid
+          </div>
+          <div className="col">
+            <img src={LiveServer} alt="Placeholder" className="img-fluid" />
+          </div>
+        </div>
+        <div className="row mb-5">
+          <div className="col">
+            Last ned Live Share for å samarbeide med andre på prosjektet
+          </div>
+          <div className="col">
+            <img src={LiveShare} alt="Placeholder" className="img-fluid" />
+          </div>
+        </div>
+        <p className="mb-4">
+          Husk å ta pauser! Man kan ikke lære alt på en dag.
+        </p>
+        <div className="mb-3">
+          <Link to="/html-dokumentets-grunnstruktur" className="btn btn-primary">START</Link>
+          </div>
+      </div>
     </div>
+    
   );
 }
 
-export default Task1HTML;
+export default Main;

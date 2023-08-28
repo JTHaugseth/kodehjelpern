@@ -8,7 +8,7 @@ function Navbar() {
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">Kontakt meg</Link>
+            <Link className="nav-link" to="/kontakt-meg">Kontakt meg</Link>
           </li>
         </ul>
       </div>

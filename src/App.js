@@ -39,7 +39,7 @@ function App() {
             <div className="col-9 p-0">
               <Routes>
                 <Route path="/" element={<Main />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/kontakt-meg" element={<Contact />} />
                 
                 {/* HTML TASK ROUTES */}
                 <Route path="/html-dokumentets-grunnstruktur" element={<Task1HTML />} />
