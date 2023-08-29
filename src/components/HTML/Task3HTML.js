@@ -51,7 +51,7 @@ function Task3HTML() {
           <Link to="/tekst-og-overskrifter" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
-          <Link to="/next-task" className="btn btn-primary">Neste</Link>
+          <Link to="/bilder-og-attributter" className="btn btn-primary">Neste</Link>
         </div>
       </div>
     </div>

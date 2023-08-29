@@ -12,6 +12,7 @@ import Task3HTML from './components/HTML/Task3HTML';
 import Task4HTML from './components/HTML/Task4HTML';
 import Task5HTML from './components/HTML/Task5HTML';
 import Task6HTML from './components/HTML/Task6HTML';
+import Task7HTML from './components/HTML/Task7HTML';
 
 import Task1CSS from './components/CSS/Task1CSS';
 import Task2CSS from './components/CSS/Task2CSS';
@@ -48,7 +49,8 @@ function App() {
                 <Route path="/lister-og-lenker" element={<Task3HTML />} />
                 <Route path="/bilder-og-attributter" element={<Task4HTML />} />
                 <Route path="/containere-i-html" element={<Task5HTML />} />
-                <Route path="/utforsk-flere-html-tags" element={<Task6HTML />} />
+                <Route path="/håndtering-av-brukerinput" element={<Task6HTML />} />
+                <Route path="/utforsk-flere-html-tags" element={<Task7HTML />} />
               
                 {/* CSS TASK ROUTES */}
                 <Route path="/introduksjon-til-css" element={<Task1CSS />} />

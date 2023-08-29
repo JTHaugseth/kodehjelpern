@@ -8,7 +8,8 @@ function Sidebar() {
     { id: 3, name: 'Lister og Lenker' },
     { id: 4, name: 'Bilder og Attributter' },
     { id: 5, name: 'Containere i HTML' },
-    { id: 6, name: 'Utforsk Flere HTML-Tags' }
+    { id: 6, name: 'Håndtering av Brukerinput' },
+    { id: 7, name: 'Utforsk Flere HTML-Tags' }
     // You can add more HTML tasks here
   ];
 
