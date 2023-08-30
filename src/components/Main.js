@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LiveServer from '../images/LiveServer.JPG';
-import LiveShare from '../images/LiveShare.JPG';
+import LiveServer from '../HTML-images/LiveServer.JPG';
+import LiveShare from '../HTML-images/LiveShare.JPG';
 
 function Main() {
   return (

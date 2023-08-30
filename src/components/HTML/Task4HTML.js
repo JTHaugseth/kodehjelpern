@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Task4ExampleCode from '../../images/Task4ExampleCode.JPG';  
-import Task4ExampleResult from '../../images/Task4ExampleResult.JPG';  
+import Task4ExampleCode from '../../HTML-images/Task4ExampleCode.JPG';  
+import Task4ExampleResult from '../../HTML-images/Task4ExampleResult.JPG';  
 
 function Task4HTML() {
   return (

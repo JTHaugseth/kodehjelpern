@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ImageHTML from '../../images/HTML.JPG';
+import ImageHTML from '../../HTML-images/HTML.JPG';
 
 function Task1HTML() {
   return (

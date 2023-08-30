@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Task5ExampleCode from '../../images/Task5ExampleCode.JPG';  
-import Task5ExampleResult from '../../images/Task5ExampleResult.JPG';  
+import Task5ExampleCode from '../../HTML-images/Task5ExampleCode.JPG';  
+import Task5ExampleResult from '../../HTML-images/Task5ExampleResult.JPG';  
 
 function Task5HTML() {
   return (

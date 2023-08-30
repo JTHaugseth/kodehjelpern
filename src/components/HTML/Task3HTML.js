@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Task3ExampleCode from '../../images/Task3ExampleCode.JPG';
-import Task3ExampleResult from '../../images/Task3ExampleResult.JPG';
+import Task3ExampleCode from '../../HTML-images/Task3ExampleCode.JPG';
+import Task3ExampleResult from '../../HTML-images/Task3ExampleResult.JPG';
 
 function Task3HTML() {
   return (

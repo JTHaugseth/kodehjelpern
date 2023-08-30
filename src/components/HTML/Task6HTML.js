@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Task6ExampleCode from '../../images/Task6ExampleCode.JPG';  // Import placeholder images
-import Task6ExampleResult from '../../images/Task6ExampleResult.JPG';  // Import placeholder images
+import Task6ExampleCode from '../../HTML-images/Task6ExampleCode.JPG';  // Import placeholder images
+import Task6ExampleResult from '../../HTML-images/Task6ExampleResult.JPG';  // Import placeholder images
 
 function Task6HTML() {
   return (
