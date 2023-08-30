@@ -39,7 +39,9 @@ function Task7CSS() {
         {/* Bottom Right */}
         <div className="col-md-6">
           {/* Placeholder image */}
-          <img src={Task7ExampleResult} alt="Placeholder" className="img-fluid" />
+          <div className="browser-mockup">
+            <img src={Task7ExampleResult} alt="Placeholder" className="img-fluid" />
+          </div>
         </div>
       </div>
 
