@@ -26,6 +26,7 @@ import Task9CSS from './components/CSS/Task9CSS';
 import Task10CSS from './components/CSS/Task10CSS';
 import Task11CSS from './components/CSS/Task11CSS';
 import Task12CSS from './components/CSS/Task12CSS';
+import Task13CSS from './components/CSS/Task13CSS';
 
 
 function App() {
@@ -62,9 +63,10 @@ function App() {
                 <Route path="/layout-med-div-og-span" element={<Task7CSS />} />
                 <Route path="/responsiv-design" element={<Task8CSS />} />
                 <Route path="/hover-og-pseudoklasser" element={<Task9CSS />} />
-                <Route path="/mer-avanserte-selektorer" element={<Task10CSS />} />
-                <Route path="/flexbox-og-grid" element={<Task11CSS />} />
-                <Route path="/transisjoner-og-animasjoner" element={<Task12CSS />} />
+                <Route path="/positioning-og-z-index" element={<Task10CSS />} />
+                <Route path="/display-property-og-visibility" element={<Task11CSS />} />
+                <Route path="/flexbox-og-grid" element={<Task12CSS />} />
+                <Route path="/transisjoner-og-animasjoner" element={<Task13CSS />} />
 
                 {/* EXTRA TASKS */}
 

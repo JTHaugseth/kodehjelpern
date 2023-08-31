@@ -52,7 +52,7 @@ function Task9CSS() {
           <Link to="/responsiv-design" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
-          <Link to="/mer-avanserte-selektorer" className="btn btn-primary">Neste</Link>
+          <Link to="/positioning-og-z-index" className="btn btn-primary">Neste</Link>
         </div>
       </div>
     </div>
