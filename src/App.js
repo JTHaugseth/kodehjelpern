@@ -61,12 +61,12 @@ function App() {
                 <Route path="/margin-og-padding" element={<Task5CSS />} />
                 <Route path="/grenser-og-bokser" element={<Task6CSS />} />
                 <Route path="/layout-med-div-og-span" element={<Task7CSS />} />
-                <Route path="/responsiv-design" element={<Task8CSS />} />
+                <Route path="/display-property-og-visibility" element={<Task8CSS />} />
                 <Route path="/hover-og-pseudoklasser" element={<Task9CSS />} />
                 <Route path="/positioning-og-z-index" element={<Task10CSS />} />
-                <Route path="/display-property-og-visibility" element={<Task11CSS />} />
+                <Route path="/transisjoner-og-animasjoner" element={<Task11CSS />} />
                 <Route path="/flexbox-og-grid" element={<Task12CSS />} />
-                <Route path="/transisjoner-og-animasjoner" element={<Task13CSS />} />
+                <Route path="/responsiv-design" element={<Task13CSS />} />
 
                 {/* EXTRA TASKS */}
 

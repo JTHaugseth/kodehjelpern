@@ -51,7 +51,7 @@ function Task7CSS() {
           <Link to="/grenser-og-bokser" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
-          <Link to="/responsiv-design" className="btn btn-primary">Neste</Link>
+          <Link to="/display-property-og-visibility" className="btn btn-primary">Neste</Link>
         </div>
       </div>
     </div>

@@ -60,7 +60,7 @@ function Task10CSS() {
           <Link to="/hover-og-pseudoklasser" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
-          <Link to="/display-property-og-visibility" className="btn btn-primary">Neste</Link>
+          <Link to="/transisjoner-og-animasjoner" className="btn btn-primary">Neste</Link>
         </div>
       </div>
     </div>

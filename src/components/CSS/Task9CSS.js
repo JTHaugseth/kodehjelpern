@@ -49,7 +49,7 @@ function Task9CSS() {
       {/* Buttons at the bottom */}
       <div className="row mt-5 justify-content-center">
         <div className="col-auto">
-          <Link to="/responsiv-design" className="btn btn-secondary">Tilbake</Link>
+          <Link to="/display-property-og-visibility" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
           <Link to="/positioning-og-z-index" className="btn btn-primary">Neste</Link>

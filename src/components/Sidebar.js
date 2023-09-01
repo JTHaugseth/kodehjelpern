@@ -21,12 +21,12 @@ function Sidebar() {
     { id: 5, name: 'Margin og Padding' },
     { id: 6, name: 'Grenser og Bokser' },
     { id: 7, name: 'Layout med div og span' },
-    { id: 8, name: 'Responsiv Design' },
+    { id: 8, name: 'Display Property og Visibility' },
     { id: 9, name: 'Hover og Pseudoklasser' },
     { id: 10, name: 'Positioning og Z-index' },
-    { id: 11, name: 'Display Property og Visibility' },
+    { id: 11, name: 'Transisjoner og Animasjoner' },
     { id: 12, name: 'Flexbox og Grid' },
-    { id: 13, name: 'Transisjoner og Animasjoner' }
+    { id: 13, name: 'Responsiv Design' }
     // You can add more CSS tasks here
   ];
 

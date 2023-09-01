@@ -6,19 +6,24 @@ import Task8ExampleResult from '../../CSS-images/Task8ExampleResult.JPG';
 function Task8CSS() {
   return (
     <div className="container-fluid">
-      <h1 className='mb-5'>Responsiv Design</h1>
+      <h1 className='mb-5'>Display-Property og Visibility</h1>
 
       {/* 2x2 Grid */}
       <div className="row">
 
         {/* Top Left */}
         <div className="col-md-6">
-          <p>Responsiv design sørger for at webinnholdet tilpasses ulike skjermstørrelser og enheter. Fra stasjonære datamaskiner til nettbrett og mobiltelefoner, skal en nettside med responsiv design se bra ut og være brukervennlig på alle enheter.</p>
-          <p>Dette oppnås ved hjelp av ulike teknikker som media queries, fleksible grid-layout, og fleksible bilder.</p>
-          <p>Media Queries: Tillater deg å sette spesifikke CSS-stiler for bestemte skjermstørrelser eller enheter.</p>
-          <p>Fleksible Grids: Bruk av prosentandel i stedet for faste piksler for layoutdimensjoner, slik at innholdet kan tilpasse seg ulike skjermstørrelser.</p>
-          <p>Fleksible Bilder: Betyr at bildene skal skalere og tilpasse seg containerne de er i, i stedet for å ha faste dimensjoner.</p>
-          <p>Det er viktig å teste hvordan webdesignet ditt tilpasser seg ulike skjermstørrelser. Det finnes flere metoder for dette, men en av de mest tilgjengelige og enkle måtene er å bruke utviklerverktøyene i nettleseren din.</p>
+          <p>display-egenskapen bestemmer hvordan et element skal vises i forhold til layout og formatering.</p>
+          <p>
+            <strong>block:</strong> Elementet tar opp hele bredden og starter på en ny linje. <br />
+            <strong>inline:</strong> Elementet tar bare opp så mye plass som det trenger, og blir ikke brutt til en ny linje. <br />
+            <strong>none:</strong> Elementet vil ikke bli vist, og tar ingen plass (som om det ikke finnes).
+          </p>
+          <p>visibility-egenskapen bestemmer om et element skal være synlig eller ikke.</p>
+          <p>
+            <strong>visible:</strong> Elementet er synlig. <br />
+            <strong>hidden:</strong> Elementet er usynlig, men tar opp plass.
+          </p>
         </div>
 
         {/* Top Right */}
@@ -31,9 +36,10 @@ function Task8CSS() {
         <div className="col-md-6">
           <h2>Oppgave</h2>
           <ol>
-            <li>Lag et HTML-dokument med en div som inneholder både tekst og bilder.</li>
-            <li>Bruk CSS for å style denne div-en med en fast bredde og høyde.</li>
-            <li>Legg til en media query i CSS som endrer stilene når skjermstørrelsen er under 600px.</li>
+            <li>Lag et HTML-dokument med tre div-elementer.</li>
+            <li>Det første elementet skal ha display: block; og ha en blå bakgrunnsfarge.</li>
+            <li>Det andre elementet skal ha display: inline; og ha en grønn bakgrunnsfarge.</li>
+            <li>Det tredje elementet skal ha visibility: hidden; men ha en rød bakgrunnsfarge.</li>
           </ol>
         </div>
 
