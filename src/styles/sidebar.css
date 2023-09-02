@@ -1,0 +1,11 @@
+#sidebar-wrapper {
+    background-color: rgb(32, 33, 35);
+    height: 100vh;
+    /* 100% of the viewport height */
+}
+
+#sidebar-wrapper h1,
+#sidebar-wrapper h2,
+#sidebar-wrapper a {
+    color: rgb(236, 236, 241);
+}

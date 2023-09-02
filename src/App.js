@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
 import Contact from './components/Contact';
@@ -33,7 +32,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <div className="container-fluid">
           <div className="row">
             <div className="col-3 p-0">
