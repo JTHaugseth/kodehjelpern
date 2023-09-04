@@ -105,10 +105,10 @@ function Sidebar() {
           <hr className="bg-white" />
           <h2 className="text-white p-3" aria-hidden="true"></h2>
           <Link
-            to="/oppgave-generator-beta"
-            className={`list-group-item list-group-item-action text-white ${location.pathname === "/oppgave-generator-beta" ? 'active-link' : ''}`}
+            to="/div-bot"
+            className={`list-group-item list-group-item-action text-white ${location.pathname === "/div-bot" ? 'active-link' : ''}`}
           >
-            Oppgave Generator BETA
+            Div-Bot (Beta)
           </Link>
           <Link
             to="/kontakt"

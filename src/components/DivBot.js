@@ -1,12 +1,12 @@
 import React from 'react';
 
-function AIgenerator() {
+function DivBot() {
   return (
     <div className="container-fluid">
       {/* Content for Intro to HTML will go here */}
-      <h1>Not yet implemented</h1>
+      <h1>DivBot is currently afk</h1>
     </div>
   );
 }
 
-export default AIgenerator;
+export default DivBot;

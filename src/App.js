@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
 import Contact from './components/Contact';
-import AIgenerator from './components/AIgenerator';
+import DivBot from './components/DivBot';
 import './App.css';
 
 import Task1HTML from './components/HTML/Task1HTML';
@@ -40,7 +40,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/kontakt" element={<Contact />} />
-            <Route path="/oppgave-generator-beta" element={<AIgenerator />} />
+            <Route path="/div-bot" element={<DivBot />} />
 
             {/* HTML TASK ROUTES */}
             <Route path="/html-dokumentets-grunnstruktur" element={<Task1HTML />} />
