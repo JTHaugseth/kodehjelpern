@@ -31,46 +31,42 @@ import Task13CSS from './components/CSS/Task13CSS';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-3 p-0">
-              <Sidebar />
-            </div>
-            <div className="col-9 p-0">
-              <Routes>
-                <Route path="/" element={<Main />} />
-                <Route path="/kontakt-meg" element={<Contact />} />
-                
-                {/* HTML TASK ROUTES */}
-                <Route path="/html-dokumentets-grunnstruktur" element={<Task1HTML />} />
-                <Route path="/tekst-og-overskrifter" element={<Task2HTML />} />
-                <Route path="/lister-og-lenker" element={<Task3HTML />} />
-                <Route path="/bilder-og-attributter" element={<Task4HTML />} />
-                <Route path="/containere-i-html" element={<Task5HTML />} />
-                <Route path="/håndtering-av-brukerinput" element={<Task6HTML />} />
-                <Route path="/utforsk-flere-html-tags" element={<Task7HTML />} />
-              
-                {/* CSS TASK ROUTES */}
-                <Route path="/introduksjon-til-css" element={<Task1CSS />} />
-                <Route path="/css-selektorer-og-grunnleggende-syntaks" element={<Task2CSS />} />
-                <Route path="/farger-og-bakgrunn" element={<Task3CSS />} />
-                <Route path="/tekstformatering" element={<Task4CSS />} />
-                <Route path="/margin-og-padding" element={<Task5CSS />} />
-                <Route path="/grenser-og-bokser" element={<Task6CSS />} />
-                <Route path="/layout-med-div-og-span" element={<Task7CSS />} />
-                <Route path="/display-property-og-visibility" element={<Task8CSS />} />
-                <Route path="/hover-og-pseudoklasser" element={<Task9CSS />} />
-                <Route path="/positioning-og-z-index" element={<Task10CSS />} />
-                <Route path="/transisjoner-og-animasjoner" element={<Task11CSS />} />
-                <Route path="/flexbox-og-grid" element={<Task12CSS />} />
-                <Route path="/responsiv-design" element={<Task13CSS />} />
+      <div className="App d-flex">
+        <div className="sidebar-container" style={{ width: '25%', minWidth: '290px' }}>
+          <Sidebar />
+        </div>
+        <div className="main-content-container" style={{ width: '75%', overflow: 'auto' }}>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/kontakt-meg" element={<Contact />} />
 
-                {/* EXTRA TASKS */}
+            {/* HTML TASK ROUTES */}
+            <Route path="/html-dokumentets-grunnstruktur" element={<Task1HTML />} />
+            <Route path="/tekst-og-overskrifter" element={<Task2HTML />} />
+            <Route path="/lister-og-lenker" element={<Task3HTML />} />
+            <Route path="/bilder-og-attributter" element={<Task4HTML />} />
+            <Route path="/containere-i-html" element={<Task5HTML />} />
+            <Route path="/håndtering-av-brukerinput" element={<Task6HTML />} />
+            <Route path="/utforsk-flere-html-tags" element={<Task7HTML />} />
 
-              </Routes>
-            </div>
-          </div>
+            {/* CSS TASK ROUTES */}
+            <Route path="/introduksjon-til-css" element={<Task1CSS />} />
+            <Route path="/css-selektorer-og-grunnleggende-syntaks" element={<Task2CSS />} />
+            <Route path="/farger-og-bakgrunn" element={<Task3CSS />} />
+            <Route path="/tekstformatering" element={<Task4CSS />} />
+            <Route path="/margin-og-padding" element={<Task5CSS />} />
+            <Route path="/grenser-og-bokser" element={<Task6CSS />} />
+            <Route path="/layout-med-div-og-span" element={<Task7CSS />} />
+            <Route path="/display-property-og-visibility" element={<Task8CSS />} />
+            <Route path="/hover-og-pseudoklasser" element={<Task9CSS />} />
+            <Route path="/positioning-og-z-index" element={<Task10CSS />} />
+            <Route path="/transisjoner-og-animasjoner" element={<Task11CSS />} />
+            <Route path="/flexbox-og-grid" element={<Task12CSS />} />
+            <Route path="/responsiv-design" element={<Task13CSS />} />
+
+            {/* EXTRA TASKS */}
+
+          </Routes>
         </div>
       </div>
     </Router>
