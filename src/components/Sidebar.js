@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import '../styles/sidebar.css';
 
 function Sidebar() {
   const [showGuides, setShowGuides] = useState(false);
+  const location = useLocation();
 
   const htmlTasks = [
     { id: 1, name: 'HTML-dokumentets grunnstruktur' },
@@ -55,34 +56,34 @@ function Sidebar() {
       {showGuides ? (
         <div className="list-group list-group-flush overflow-auto">
           <button onClick={toggleGuides} className="btn btn-link text-white">
-            &larr; Back
+            &larr; Tilbake
           </button>
-          <h1 className="text-white p-1">HTML</h1>
+          <h2 className="text-white p-3">HTML</h2>
           {htmlTasks.map((task) => (
             <Link
               key={task.id}
               to={`/${urlFriendlyName(task.name)}`}
-              className="list-group-item list-group-item-action bg-transparent"
+              className={`list-group-item list-group-item-action ${location.pathname === `/${urlFriendlyName(task.name)}` ? 'active-link' : ''}`}
             >
               {task.name}
             </Link>
           ))}
-          <h1 className="text-white p-1">CSS</h1>
+          <h2 className="text-white p-3">CSS</h2>
           {cssTasks.map((task) => (
             <Link
               key={task.id}
               to={`/${urlFriendlyName(task.name)}`}
-              className="list-group-item list-group-item-action bg-transparent"
+              className={`list-group-item list-group-item-action ${location.pathname === `/${urlFriendlyName(task.name)}` ? 'active-link' : ''}`}
             >
               {task.name}
             </Link>
           ))}
-          <h1 className="text-white p-1">Ekstra Oppgaver</h1>
+          <h2 className="text-white p-3">Ekstra Oppgaver</h2>
           {extraTasks.map((task) => (
             <Link
               key={task.id}
               to={`/${urlFriendlyName(task.name)}`}
-              className="list-group-item list-group-item-action bg-transparent"
+              className={`list-group-item list-group-item-action ${location.pathname === `/${urlFriendlyName(task.name)}` ? 'active-link' : ''}`}
             >
               {task.name}
             </Link>
@@ -92,7 +93,7 @@ function Sidebar() {
         <div className="list-group list-group-flush overflow-auto">
           <h1 className="text-white p-1">Kodehjelpern</h1>
           <hr className="bg-white" />
-          <h2 className="text-white p-1">Guider</h2>
+          <h2 className="text-white p-3">Guider</h2>
           <button onClick={toggleGuides} className="btn btn-secondary list-group-item list-group-item-action">
             HTML og CSS
           </button>
