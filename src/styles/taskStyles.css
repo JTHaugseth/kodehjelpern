@@ -10,5 +10,6 @@
     background-color: rgb(37, 38, 41);
     height: 8%;
     align-items: center;
+    margin-top: 1%;
     box-shadow: 0 -5px 15px rgba(37, 38, 41, 0.5);
 }

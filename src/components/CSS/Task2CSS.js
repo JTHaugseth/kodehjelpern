@@ -2,15 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Task2ExampleCode from '../../CSS-images/Task2ExampleCode.JPG';
 import Task2ExampleResult from '../../CSS-images/Task2ExampleResult.JPG';
+import '../../styles/taskStyles.css';  // Import the CSS file
 
 function Task2CSS() {
   return (
     <div className="container-fluid">
-      <h1 className='mb-5'>CSS Selektorer og Grunnleggende Syntaks</h1>
+      <h1>CSS Selektorer og Grunnleggende Syntaks</h1>
 
+      <div className='content-container'>
       {/* 2x2 Grid */}
-      <div className="row mb-4">
-
+      <div className="row">
         {/* Top Left */}
         <div className="col-md-6">
           <h2>Hva er en CSS Selektor?</h2>
@@ -31,7 +32,9 @@ function Task2CSS() {
           {/* Placeholder image */}
           <img src={Task2ExampleCode} alt="Placeholder" className="img-fluid" />
         </div>
+      </div>
 
+      <div className="row">
         {/* Bottom Left */}
         <div className="col-md-6">
           <h2>Oppgave:</h2>
@@ -50,11 +53,11 @@ function Task2CSS() {
             <img src={Task2ExampleResult} alt="Placeholder" className="img-fluid" />
           </div>
         </div>
-
+      </div>
       </div>
 
       {/* Buttons at the bottom */}
-      <div className="row mt-5 justify-content-center">
+      <div className="row justify-content-center buttons-bar">
         <div className="col-auto">
           <Link to="/introduksjon-til-css" className="btn btn-secondary">Tilbake</Link>
         </div>
