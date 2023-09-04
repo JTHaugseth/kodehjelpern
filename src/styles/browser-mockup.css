@@ -4,7 +4,7 @@
     position: relative;
     padding-top: 20px;  /* Space for the "browser buttons" */
     /* Optional: Add max-width for large screens */
-    max-width: 100%;
+    max-width: fit-content;
   }
   
   /* Optional: Add fake browser buttons */

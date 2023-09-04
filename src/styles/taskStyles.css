@@ -7,9 +7,13 @@
 }
 
 .buttons-bar{
-    background-color: rgb(37, 38, 41);
+    background-color: rgb(59, 61, 66);
     height: 8%;
     align-items: center;
     margin-top: 1%;
     box-shadow: 0 -5px 15px rgba(37, 38, 41, 0.5);
+}
+
+img {
+    padding-bottom: 2%;
 }
