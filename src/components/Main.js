@@ -12,6 +12,7 @@ function Main() {
           Hos kodehjelpern lærer du det grunnleggende i HTML og CSS. Trykk START nederst for å begynne!
         </p>
         <h2 className="mb-5">Anbefalninger</h2>
+        <h5 className="mb-2">Verktøy: Visual Studio Code</h5>
         <h5 className="mb-2">File -{">"} Auto Save</h5>
         <h6 className="mb-5">Dette vil automatisk lagre dokumentet ditt for hver endring</h6>
         

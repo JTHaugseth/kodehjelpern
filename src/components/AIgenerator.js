@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Task1HTML() {
+function AIgenerator() {
   return (
     <div className="container-fluid">
       {/* Content for Intro to HTML will go here */}
@@ -9,4 +9,4 @@ function Task1HTML() {
   );
 }
 
-export default Task1HTML;
+export default AIgenerator;

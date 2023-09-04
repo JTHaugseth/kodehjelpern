@@ -91,19 +91,31 @@ function Sidebar() {
         </div>
       ) : (
         <div className="list-group list-group-flush overflow-auto">
-          <h3 className="text-white p-2">Kodehjelpern</h3>
+          <Link
+            to="/"
+            className={`p-3 ${location.pathname === "/"}`}
+          >
+            <h3 className="text-white">Kodehjelpern</h3>
+          </Link>
           <hr className="bg-white" />
-          
-          <button onClick={toggleGuides} className="btn btn-secondary list-group-item list-group-item-action">
+
+          <button onClick={toggleGuides} className="list-group-item list-group-item list-group-item-action text-white">
             HTML og CSS
           </button>
           <hr className="bg-white" />
-          <button className="btn btn-secondary list-group-item list-group-item-action disabled">
+          <h2 className="text-white p-3" aria-hidden="true"></h2>
+          <Link
+            to="/oppgave-generator-beta"
+            className={`list-group-item list-group-item-action text-white ${location.pathname === "/oppgave-generator-beta" ? 'active-link' : ''}`}
+          >
             Oppgave Generator BETA
-          </button>
-          <button className="btn btn-secondary list-group-item list-group-item-action">
+          </Link>
+          <Link
+            to="/kontakt"
+            className={`list-group-item list-group-item-action text-white ${location.pathname === "/kontakt" ? 'active-link' : ''}`}
+          >
             Kontakt
-          </button>
+          </Link>
         </div>
       )}
     </div>

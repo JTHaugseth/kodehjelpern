@@ -1,19 +1,56 @@
-.container-fluid{
+.container-fluid {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-}
-
-.buttons-bar{
-    background-color: rgb(59, 61, 66);
+    background-color: rgb(238, 238, 238);
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .content-container {
+    background-color: rgb(238, 238, 238);
+    overflow-x:hidden; /* Adds scrolling if content is larger than container */
+    max-height: calc(100vh - 8% - 16px); /* Adjusted as necessary */
+    width: 100%; /* Ensures the container takes the full width */
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  }
+  
+  .buttons-bar {
+    background-color: rgb(238, 238, 238);
     height: 8%;
     align-items: center;
     margin-top: 1%;
     box-shadow: 0 -5px 15px rgba(37, 38, 41, 0.5);
+  }
+  
+  img {
+    max-width: 100%; /* Ensures that the image will not overflow its container */
+    padding-bottom: 2px;
+  }
+
+.content-container {
+    overflow-y: scroll;
 }
 
-img {
-    padding-bottom: 2%;
+.content-container::-webkit-scrollbar {
+    width: 7px;
+    /* Adjust width */
+}
+
+.content-container::-webkit-scrollbar-track {
+    background-color: rgb(238, 238, 238);
+    /* Adjust track background color */
+}
+
+.content-container::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 123, 255);
+    /* Adjust thumb background color */
+    border-radius: 5px;
+    /* Make the thumb rounded */
+    
+}
+
+.content-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 88, 182);
+    /* Adjust thumb background color on hover */
 }

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
 import Contact from './components/Contact';
+import AIgenerator from './components/AIgenerator';
 import './App.css';
 
 import Task1HTML from './components/HTML/Task1HTML';
@@ -38,7 +39,8 @@ function App() {
         <div className="main-content-container" style={{ width: '85%', overflow: 'auto' }}>
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/kontakt-meg" element={<Contact />} />
+            <Route path="/kontakt" element={<Contact />} />
+            <Route path="/oppgave-generator-beta" element={<AIgenerator />} />
 
             {/* HTML TASK ROUTES */}
             <Route path="/html-dokumentets-grunnstruktur" element={<Task1HTML />} />
