@@ -37,3 +37,29 @@
     /* or any other darker color for the active route */
 }
 
+#sidebar-wrapper {
+    overflow-y: scroll;
+}
+
+#sidebar-wrapper::-webkit-scrollbar {
+    width: 7px;
+    /* Adjust width */
+}
+
+#sidebar-wrapper::-webkit-scrollbar-track {
+    background-color: rgb(32, 33, 35);
+    /* Adjust track background color */
+}
+
+#sidebar-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 123, 255);
+    /* Adjust thumb background color */
+    border-radius: 5px;
+    /* Make the thumb rounded */
+    
+}
+
+#sidebar-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 88, 182);
+    /* Adjust thumb background color on hover */
+}
