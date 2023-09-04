@@ -2,14 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Task4ExampleCode from '../../HTML-images/Task4ExampleCode.JPG';  
 import Task4ExampleResult from '../../HTML-images/Task4ExampleResult.JPG';  
+import '../../styles/taskStyles.css';
 
 function Task4HTML() {
   return (
     <div className="container-fluid">
-      <h1 className='mb-5'>Bilder og Attributter</h1>
+      {/* Title */}
+      <h1>Bilder og Attributter</h1>
       
+      <div className='content-container'>
       {/* 2x2 Grid */}
-      <div className="row mb-4">
+      <div className="row">
         
         {/* Top Left Column */}
         <div className="col-md-6">
@@ -19,8 +22,7 @@ function Task4HTML() {
 
         {/* Top Right Column */}
         <div className="col-md-6">
-          {/* Placeholder Image */}
-          <img src={Task4ExampleCode} alt="Placeholder" className="img-fluid"/>
+          <img src={Task4ExampleCode} alt="Example Code" className="img-fluid"/>
         </div>
 
       </div>
@@ -36,16 +38,16 @@ function Task4HTML() {
 
         {/* Bottom Right Column */}
         <div className="col-md-6">
-          {/* Placeholder Image */}
           <div className="browser-mockup">
-            <img src={Task4ExampleResult} alt="Placeholder" className="img-fluid"/>
+            <img src={Task4ExampleResult} alt="Example Result" className="img-fluid"/>
           </div>
         </div>
 
       </div>
+      </div>
 
       {/* Buttons at the bottom */}
-      <div className="row mt-5 justify-content-center">
+      <div className="row justify-content-center buttons-bar">
         <div className="col-auto">
           <Link to="/lister-og-lenker" className="btn btn-secondary">Tilbake</Link>
         </div>
@@ -53,7 +55,6 @@ function Task4HTML() {
           <Link to="/containere-i-html" className="btn btn-primary">Neste</Link>
         </div>
       </div>
-
     </div>
   );
 }

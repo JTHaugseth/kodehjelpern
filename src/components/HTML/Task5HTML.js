@@ -2,14 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Task5ExampleCode from '../../HTML-images/Task5ExampleCode.JPG';  
 import Task5ExampleResult from '../../HTML-images/Task5ExampleResult.JPG';  
+import '../../styles/taskStyles.css';
 
 function Task5HTML() {
   return (
     <div className="container-fluid">
-      <h1 className='mb-5'>Containere i HTML</h1>
+      {/* Title */}
+      <h1>Containere i HTML</h1>
       
+      <div className='content-container'>
       {/* 2x2 Grid */}
-      <div className="row mb-4">
+      <div className="row">
         
         {/* Top Left Column */}
         <div className="col-md-6">
@@ -19,8 +22,7 @@ function Task5HTML() {
 
         {/* Top Right Column */}
         <div className="col-md-6">
-          {/* Placeholder Image */}
-          <img src={Task5ExampleCode} alt="Placeholder" className="img-fluid"/>
+          <img src={Task5ExampleCode} alt="Example Code" className="img-fluid"/>
         </div>
 
       </div>
@@ -36,24 +38,23 @@ function Task5HTML() {
 
         {/* Bottom Right Column */}
         <div className="col-md-6">
-          {/* Placeholder Image */}
           <div className="browser-mockup">
-            <img src={Task5ExampleResult} alt="Placeholder" className="img-fluid"/>
+            <img src={Task5ExampleResult} alt="Example Result" className="img-fluid"/>
           </div>
         </div>
 
       </div>
+      </div>
 
       {/* Buttons at the bottom */}
-      <div className="row mt-5 justify-content-center">
+      <div className="row justify-content-center buttons-bar">
         <div className="col-auto">
           <Link to="/bilder-og-attributter" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
-          <Link to="/håndtering-av-brukerinput" className="btn btn-primary">Neste</Link>
+          <Link to="/brukerinput" className="btn btn-primary">Neste</Link>
         </div>
       </div>
-
     </div>
   );
 }

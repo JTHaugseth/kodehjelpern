@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ImageHTML from '../../HTML-images/HTML.JPG';
+import '../../styles/taskStyles.css';
 
 function Task1HTML() {
   return (
     <div className="container-fluid">
       {/* Title */}
-      <h1 className='mb-5'>HTML-dokumentets grunnstruktur</h1>
+      <h1>HTML-dokumentets grunnstruktur</h1>
       
+      <div className='content-container'>
       {/* 1x1 Grid */}
       <div className="row">
         {/* Text Column */}
@@ -32,9 +34,11 @@ function Task1HTML() {
           <img src={ImageHTML} alt="Placeholder" className="img-fluid"/>
         </div>
       </div>
+      </div>
+      
 
       {/* Buttons at the bottom */}
-      <div className="row mt-5 justify-content-center">
+      <div className="row justify-content-center buttons-bar">
         <div className="col-auto">
           <Link to="/" className="btn btn-secondary">Tilbake</Link>
         </div>

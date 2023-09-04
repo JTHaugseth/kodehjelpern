@@ -12,7 +12,7 @@ function Sidebar() {
     { id: 3, name: 'Lister og Lenker' },
     { id: 4, name: 'Bilder og Attributter' },
     { id: 5, name: 'Containere i HTML' },
-    { id: 6, name: 'Håndtering av Brukerinput' },
+    { id: 6, name: 'Brukerinput' },
     { id: 7, name: 'Utforsk Flere HTML-Tags' }
     // You can add more HTML tasks here
   ];
@@ -52,7 +52,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="col-8 border-right overflow-auto" id="sidebar-wrapper">
+    <div className="overflow-auto" id="sidebar-wrapper">
       {showGuides ? (
         <div className="list-group list-group-flush overflow-auto">
           <button onClick={toggleGuides} className="btn btn-link text-white">
@@ -91,9 +91,9 @@ function Sidebar() {
         </div>
       ) : (
         <div className="list-group list-group-flush overflow-auto">
-          <h1 className="text-white p-1">Kodehjelpern</h1>
+          <h3 className="text-white p-2">Kodehjelpern</h3>
           <hr className="bg-white" />
-          <h2 className="text-white p-3">Guider</h2>
+          
           <button onClick={toggleGuides} className="btn btn-secondary list-group-item list-group-item-action">
             HTML og CSS
           </button>

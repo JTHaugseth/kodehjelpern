@@ -1,6 +1,7 @@
 #sidebar-wrapper {
     background-color: rgb(32, 33, 35);
     height: 100vh;
+    padding: 5%;
     /* 100% of the viewport height */
 }
 

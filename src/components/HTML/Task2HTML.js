@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Task2ExampleCode from '../../HTML-images/Task2ExampleCode.JPG';
 import Task2ExampleResult from '../../HTML-images/Task2ExampleResult.JPG';
 import '../../styles/browser-mockup.css';
+import '../../styles/taskStyles.css'; // Make sure to import the right CSS file if the name is different
 
 function Task2HTML() {
   return (
@@ -21,7 +22,7 @@ function Task2HTML() {
 
         {/* Top-right cell */}
         <div className="col-md-6">
-          <img src={Task2ExampleCode} alt="Placeholder" className="img-fluid"/>
+          <img src={Task2ExampleCode} alt="Example Code" className="img-fluid"/>
         </div>
       </div>
 
@@ -44,7 +45,7 @@ function Task2HTML() {
       </div>
 
       {/* Buttons at the bottom */}
-      <div className="row mt-5 justify-content-center">
+      <div className="row mt-5 justify-content-center buttons-bar">
         <div className="col-auto">
           <Link to="/html-dokumentets-grunnstruktur" className="btn btn-secondary">Tilbake</Link>
         </div>

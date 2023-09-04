@@ -32,10 +32,10 @@ function App() {
   return (
     <Router>
       <div className="App d-flex">
-        <div className="sidebar-container" style={{ width: '25%', minWidth: '290px' }}>
+        <div className="sidebar-container" style={{ width: '15%', minWidth: '200px'}}>
           <Sidebar />
         </div>
-        <div className="main-content-container" style={{ width: '75%', overflow: 'auto' }}>
+        <div className="main-content-container" style={{ width: '85%', overflow: 'auto' }}>
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/kontakt-meg" element={<Contact />} />
@@ -46,7 +46,7 @@ function App() {
             <Route path="/lister-og-lenker" element={<Task3HTML />} />
             <Route path="/bilder-og-attributter" element={<Task4HTML />} />
             <Route path="/containere-i-html" element={<Task5HTML />} />
-            <Route path="/håndtering-av-brukerinput" element={<Task6HTML />} />
+            <Route path="/brukerinput" element={<Task6HTML />} />
             <Route path="/utforsk-flere-html-tags" element={<Task7HTML />} />
 
             {/* CSS TASK ROUTES */}
