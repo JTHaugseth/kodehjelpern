@@ -54,7 +54,7 @@ function Task13CSS() {
           <Link to="/flexbox-og-grid" className="btn btn-secondary">Tilbake</Link>
         </div>
         <div className="col-auto">
-          <Link to="/ekstra-oppgave-1" className="btn btn-primary">Gå videre til ekstra oppgaver i HTML og CSS</Link>
+          <Link to="/div-bot" className="btn btn-primary">Prøv Div-Bot (Beta)</Link>
         </div>
       </div>
     </div>

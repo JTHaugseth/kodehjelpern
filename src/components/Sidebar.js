@@ -34,15 +34,6 @@ function Sidebar() {
     // You can add more CSS tasks here
   ];
 
-  const extraTasks = [
-    { id: 1, name: 'Ekstra Oppgave 1' },
-    { id: 2, name: 'Ekstra Oppgave 2' },
-    { id: 3, name: 'Ekstra Oppgave 3' },
-    { id: 4, name: 'Ekstra Oppgave 4' },
-    { id: 5, name: 'Ekstra Oppgave 5' }
-    // You can add more CSS tasks here
-  ];
-
   const urlFriendlyName = (name) => {
     return name.replace(/\s+/g, '-').toLowerCase();
   };
@@ -70,16 +61,6 @@ function Sidebar() {
           ))}
           <h2 className="text-white p-3">CSS</h2>
           {cssTasks.map((task) => (
-            <Link
-              key={task.id}
-              to={`/${urlFriendlyName(task.name)}`}
-              className={`list-group-item list-group-item-action ${location.pathname === `/${urlFriendlyName(task.name)}` ? 'active-link' : ''}`}
-            >
-              {task.name}
-            </Link>
-          ))}
-          <h2 className="text-white p-3">Ekstra Oppgaver</h2>
-          {extraTasks.map((task) => (
             <Link
               key={task.id}
               to={`/${urlFriendlyName(task.name)}`}

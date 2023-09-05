@@ -5,8 +5,8 @@ import LiveShare from '../HTML-images/LiveShare.JPG';
 
 function Main() {
   return (
-    <div className="container-fluid d-flex flex-column align-items-center justify-content-center position-relative" style={{ minHeight: 'calc(100vh - 56px)' }}>
-      <div className="text-center">
+    <div className="container-fluid d-flex flex-column align-items-center justify-content-start position-relative" style={{ minHeight: '100vh', overflowY: 'auto' }}>
+      <div className="text-center"style={{ marginTop: '5%' }}>
         <h1 className="mb-4">Velkommen til Kodehjelpern!</h1>
         <p className="mb-5">
           Hos kodehjelpern lærer du det grunnleggende i HTML og CSS. Trykk START nederst for å begynne!
@@ -21,7 +21,7 @@ function Main() {
             Last ned Live Server for å se endringene dine i nettleseren i sanntid
           </div>
           <div className="col">
-            <img src={LiveServer} alt="Placeholder" className="img-fluid" />
+            <img src={LiveServer} alt="Live Server Plugin" className="img-fluid" />
           </div>
         </div>
         <div className="row mb-5">
@@ -29,7 +29,7 @@ function Main() {
             Last ned Live Share for å samarbeide med andre på prosjektet
           </div>
           <div className="col">
-            <img src={LiveShare} alt="Placeholder" className="img-fluid" />
+            <img src={LiveShare} alt="Live Share Plugin" className="img-fluid" />
           </div>
         </div>
         <p className="mb-4">
@@ -37,10 +37,9 @@ function Main() {
         </p>
         <div className="mb-3">
           <Link to="/html-dokumentets-grunnstruktur" className="btn btn-primary">START</Link>
-          </div>
+        </div>
       </div>
     </div>
-    
   );
 }
 

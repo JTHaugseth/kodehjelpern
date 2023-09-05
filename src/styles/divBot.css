@@ -1,0 +1,26 @@
+.container-fluid {
+    overflow-y: scroll;
+}
+
+.container-fluid::-webkit-scrollbar {
+    width: 7px;
+    /* Adjust width */
+}
+
+.container-fluid::-webkit-scrollbar-track {
+    background-color: rgb(238, 238, 238);
+    /* Adjust track background color */
+}
+
+.container-fluid::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 123, 255);
+    /* Adjust thumb background color */
+    border-radius: 5px;
+    /* Make the thumb rounded */
+    
+}
+
+.container-fluid::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 88, 182);
+    /* Adjust thumb background color on hover */
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/divBot.css';
 
 function DivBot() {
   const [response, setResponse] = useState(null);
