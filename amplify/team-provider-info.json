@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kodehjelpern-dev-211957-authRole",
+      "UnauthRoleArn": "arn:aws:iam::662031043517:role/amplify-kodehjelpern-dev-211957-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::662031043517:role/amplify-kodehjelpern-dev-211957-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-kodehjelpern-dev-211957-deployment",
+      "UnauthRoleName": "amplify-kodehjelpern-dev-211957-unauthRole",
+      "StackName": "amplify-kodehjelpern-dev-211957",
+      "StackId": "arn:aws:cloudformation:eu-north-1:662031043517:stack/amplify-kodehjelpern-dev-211957/33b31470-4c21-11ee-8f01-069b760fde0e",
+      "AmplifyAppId": "d35t49hlg0x5to"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
