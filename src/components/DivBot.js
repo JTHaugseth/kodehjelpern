@@ -9,7 +9,7 @@ function DivBot() {
   const callApi = async () => {
     try {
       setLoading(true);
-      const res = await fetch('http://16.170.157.111:5000/api/completions', {
+      const res = await fetch('https://16.170.157.111:5000/api/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

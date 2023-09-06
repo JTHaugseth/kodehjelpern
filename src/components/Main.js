@@ -8,6 +8,7 @@ function Main() {
     <div className="container-fluid d-flex flex-column align-items-center justify-content-start position-relative" style={{ minHeight: '100vh', overflowY: 'auto' }}>
       <div className="text-center"style={{ marginTop: '5%' }}>
         <h1 className="mb-4">Velkommen til Kodehjelpern!</h1>
+        <h1>Test 1</h1>
         <p className="mb-5">
           Hos kodehjelpern lærer du det grunnleggende i HTML og CSS. Trykk START nederst for å begynne!
         </p>
